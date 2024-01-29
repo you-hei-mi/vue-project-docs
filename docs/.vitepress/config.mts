@@ -13,6 +13,9 @@ export const nav: ThemeConfig['nav'] = [
     text: '示例',
     link: '/examples/'
   },{
+    text: '互动教程',
+    link: '/tutorial/'
+  },{
     text: 'Markdown 扩展',
     link: (process.env.NODE_ENV === "development" ? '/other/markdown' : 'https://vitepress.dev/zh/guide/markdown')
   },{
