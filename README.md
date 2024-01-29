@@ -1,24 +1,55 @@
 # vue-project-docs
 
-## Project setup
+基于 vitepress 搭建的docs ，支持集成到 vue 2/3 项目中。
+
+## 安装
+
 ```
 pnpm install
 ```
 
-### Compiles and hot-reloads for development
+### 项目启动
+
 ```
 pnpm run serve
 ```
 
-### Compiles and minifies for production
+### 项目打包
+
 ```
 pnpm run build
 ```
 
-### Lints and fixes files
+## 线上
+
+[项目预览](https://zhuanlan.zhihu.com/p/680310703/)
+
+[项目文档](https://zhuanlan.zhihu.com/p/680310703/)
+
+### 文档启动
+
 ```
-pnpm run lint
+pnpm run docs:dev
 ```
 
+### 文档打包
+
+```
+pnpm run docs:build
+```
+
+### 文档部署
+
+```
+pnpm run docs:deploy
+```
+
+### 求包养
+
+![1706517211812](images/README/1706517211812.png)
+![1706517224097](images/README/1706517224097.png)
+
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
