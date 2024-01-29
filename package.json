@@ -12,6 +12,8 @@
     "docs:deploy": "bash scripts/deploy-docs.sh"
   },
   "dependencies": {
+    "@vue/repl": "^3.4.0",
+    "@vue/theme": "^2.2.5",
     "core-js": "^3.8.3",
     "vitepress": "^1.0.0-rc.40",
     "vue": "^3.2.13"
