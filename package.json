@@ -5,10 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "bash scripts/deploy-docs.sh"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "vitepress": "^1.0.0-rc.40",
     "vue": "^3.2.13"
   },
   "devDependencies": {
