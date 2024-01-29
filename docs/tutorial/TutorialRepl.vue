@@ -2,7 +2,7 @@
 import { Repl, ReplStore } from '@vue/repl'
 import CodeMirror from '@vue/repl/codemirror-editor'
 import { inject, watch, version, Ref, ref, computed, nextTick } from 'vue'
-import { data } from './tutorial.data'
+import { data } from './tutorial.data.mjs'
 import {
   resolveSFCExample,
   resolveNoBuildExample,
