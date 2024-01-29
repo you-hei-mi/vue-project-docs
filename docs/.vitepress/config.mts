@@ -102,6 +102,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   lang: 'en-US',
   title: "My Awesome Project",
   description: "A VitePress Site",
+  base: "/vue-project-docs/",
   head: [
     ["meta", { name: "theme-color", content: "#cccc" }],
     [
