@@ -22,7 +22,7 @@ pnpm run build
 
 ## 线上
 
-[项目预览](https://zhuanlan.zhihu.com/p/680310703/)
+[项目预览](https://you-hei-mi.github.io/vue-project-docs/)
 
 [项目文档](https://zhuanlan.zhihu.com/p/680310703/)
 
@@ -44,12 +44,9 @@ pnpm run docs:build
 pnpm run docs:deploy
 ```
 
-### 求包养
+### 请一杯饮料
 
-![1706517211812](images/README/1706517211812.png)
-![1706517224097](images/README/1706517224097.png)
+| ![1706517211812](images/README/1706517211812.png) | ![1706517224097](images/README/1706517224097.png) |
+| ------------------------------------------------- | ------------------------------------------------- | 
 
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
