@@ -2,7 +2,7 @@
 import { Repl, ReplStore } from '@vue/repl'
 import CodeMirror from '@vue/repl/codemirror-editor'
 import { inject, watch, version, Ref, ref, computed, nextTick } from 'vue'
-import { data } from './tutorial.data.mjs'
+import { data } from './tutorial.data'
 import {
   resolveSFCExample,
   resolveNoBuildExample,
@@ -70,7 +70,7 @@ function updateExample(scroll = false) {
   let hash = location.hash.slice(1)
   if (!data.hasOwnProperty(hash)) {
     hash = 'step-1'
-    location.replace(`/tutorial/#${hash}`)
+    location.hash = `#${hash}`
   }
   currentStep.value = hash
 
