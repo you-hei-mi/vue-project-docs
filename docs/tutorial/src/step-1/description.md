@@ -43,7 +43,7 @@ export default {
 }
 ```
 
-See the respective [section in Tooling guide](/guide/scaling-up/tooling.html#note-on-in-browser-template-compilation) for more information.
+See the respective section in Tooling guide for more information.
 :::
 
 </div>
