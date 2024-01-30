@@ -54,7 +54,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
 }
 
 export const socialLinks: ThemeConfig['socialLinks'] = [
-  { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+  { icon: 'github', link: 'https://github.com/you-hei-mi/vue-project-docs' }
 ]
 
 // https://vitepress.dev/reference/site-config
