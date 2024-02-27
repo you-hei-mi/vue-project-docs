@@ -7,7 +7,7 @@ console.log('process.env.NODE_ENV',process.env.NODE_ENV)
 export const nav: ThemeConfig['nav'] = [
   {
     text: '介绍',
-    activeMatch: `^/(guide | other)/`,
+    activeMatch: `^\/(guide|other)\/`,
     link: '/guide/'
   },{
     text: '示例',
@@ -102,7 +102,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   lang: 'en-US',
   title: "My Awesome Project",
   description: "A VitePress Site",
-  base: "/vue-project-docs/",
+//   base: "/vue-project-docs/",
   head: [
     ["meta", { name: "theme-color", content: "#cccc" }],
     [
