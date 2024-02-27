@@ -11,7 +11,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
-  base: "/vue-project-docs/",
+//   base: "/vue-project-docs/",
   head: [
     // ["link", { rel: "icon", href: "https://codemirror.net/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#3c8772" }]
